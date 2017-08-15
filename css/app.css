@@ -63,21 +63,22 @@ li {
   height: 58px;
   margin-top: -58px; }
 
-.section_first {
+.section-first {
   background-image: url(../images/video-bg.png); }
 
-.first-header {
+.section-first__header-first {
   padding-top: 10px;
   height: 69px; }
-  .first-header_color {
-    display: inline-block;
-    text-transform: uppercase;
-    color: #fff;
-    font-family: 'Ubuntu-Medium';
-    line-height: 30px;
-    font-size: 13px; }
 
-.first-header-right {
+.color-orange {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Ubuntu-Medium';
+  line-height: 30px;
+  font-size: 13px; }
+
+.first-header__first-menu {
   float: right;
   margin-right: 75px; }
 
@@ -96,21 +97,21 @@ li {
   font-size: 13px;
   line-height: 69px; }
 
-.first-button {
+.button {
   width: 97px;
   height: 35px;
   background-color: #e45028;
   border-radius: 5px;
   display: inline-block; }
-  .first-button:hover {
+  .button:hover {
     background-color: #c1401e; }
 
-.first-button-wrap {
+.button-wrap {
   line-height: 69px;
   vertical-align: top;
   display: inline-block; }
 
-.first-button-link {
+.button__link {
   width: 100%;
   height: 100%;
   text-decoration: none;
@@ -127,7 +128,7 @@ li {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
-  .first-main__greeting-image {
+  .first-main__image-block {
     display: inline-block;
     margin-left: 95px;
     margin-right: 10px; }
@@ -135,52 +136,54 @@ li {
     display: inline-block;
     vertical-align: top;
     margin-top: 125px; }
-  .first-main__greeting-text-one {
-    text-transform: uppercase;
-    color: #f9b43b;
-    font-family: 'Gagalin';
-    line-height: 77px;
-    font-size: 72px;
-    display: block;
-    margin-bottom: 25px; }
-  .first-main__greeting-text-two {
-    font-family: 'LifehackMedium';
-    color: #fff;
-    font-size: 65px;
-    display: block;
-    line-height: 60px; }
 
-.first-scroll {
+.greeting-text__one {
+  text-transform: uppercase;
+  color: #f9b43b;
+  font-family: 'Gagalin';
+  line-height: 77px;
+  font-size: 72px;
+  display: block;
+  margin-bottom: 25px; }
+
+.greeting-text__two {
+  font-family: 'LifehackMedium';
+  color: #fff;
+  font-size: 65px;
+  display: block;
+  line-height: 60px; }
+
+.first-main__first-scroll {
   position: absolute;
   bottom: 30px;
   width: 100%;
   text-align: center; }
 
-.menu__item {
+.menu-item {
   display: inline-block; }
-  .menu__item:after {
+  .menu-item:after {
     content: "•";
     display: inline-block;
     margin-right: 15px;
     margin-left: 15px; }
-  .menu__item:last-child:after {
+  .menu-item:last-child:after {
     content: "";
     margin-right: 15px;
     margin-left: 0px; }
 
-.menu-item-link {
+.menu-item__link {
   display: inline-block;
   text-decoration: none; }
-  .menu-item-link:hover {
+  .menu-item__link:hover {
     color: #c1401e; }
 
-.section_second {
+.section-second {
   background-image: url(../images/tomato-31.png); }
 
-.section__wrapper_second {
+.section-second__wrapper {
   text-align: center; }
 
-.second-title {
+.section-second__title {
   color: #2f3234;
   line-height: 64px;
   padding-top: 65px;
@@ -196,138 +199,149 @@ li {
   transform: translateY(-50%);
   margin: 0 auto;
   width: 1100px; }
-  .second-main__item {
+  .second-main__second-item {
     display: inline-block;
     width: 290px;
     vertical-align: top;
     margin-left: 10px;
     margin-right: 10px; }
 
-.second-item-title {
+.second-item__title {
   font-family: 'LifehackMedium';
   font-size: 24px;
   line-height: 28px;
   display: inline-block;
   margin-bottom: 10px; }
 
-.second-text {
+.second-item__text {
   font-family: 'Ubuntu-Light';
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
   display: inline-block; }
 
-.second-img {
+.second-item__img {
   width: 100%;
   height: 100px;
   margin-bottom: 30px;
   background-repeat: no-repeat;
   background-position: center center; }
-  .second-img_one {
+  .second-item__img_one {
     background-image: url(../images/meat.png); }
-  .second-img_two {
+  .second-item__img_two {
     background-image: url(../images/hand.png); }
-  .second-img_three {
+  .second-item__img_three {
     background-image: url(../images/natural.png); }
 
 .section_third-section {
   background: -webkit-linear-gradient(90deg, #f9b43b 0%, #eb8c38 48%, #f9b43b 74%); }
 
-.section_sixth-section {
+.section-sixth {
   background-color: #4f4f4f;
   width: 100%; }
+  .section-sixth__sixth-image {
+    float: left;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 50vh;
+    min-height: 325px;
+    vertical-align: top;
+    background-size: cover;
+    -webkit-filter: grayscale(1); }
+    .section-sixth__sixth-image:hover .sixth-image__sixth-text {
+      display: block; }
 
-.sixth-section__image {
-  float: left;
-  background-repeat: no-repeat;
-  width: 25%;
-  height: 50vh;
-  min-height: 325px;
-  vertical-align: top;
-  background-size: cover;
-  -webkit-filter: grayscale(1); }
-  .sixth-section__image:hover .sixth-image-text-wrap {
-    display: block; }
-  .sixth-section__image_1 {
-    background-image: url(../images/review-bg1.jpg); }
-  .sixth-section__image_2 {
-    background-image: url(../images/review-bg2.jpg); }
-  .sixth-section__image_3 {
-    background-image: url(../images/review-bg3.jpg); }
-  .sixth-section__image_4 {
-    background-image: url(../images/review-bg4.jpg); }
-  .sixth-section__image_5 {
-    background-image: url(../images/review-bg5.jpg); }
-  .sixth-section__image_6 {
-    background-image: url(../images/review-bg6.jpg); }
-  .sixth-section__image_7 {
-    background-image: url(../images/review-bg7.jpg); }
-  .sixth-section__image_8 {
-    background-image: url(../images/review-bg8.jpg); }
+.sixth-image_1 {
+  background-image: url(../images/review-bg1.jpg); }
 
-.sixth-wrap {
+.sixth-image_2 {
+  background-image: url(../images/review-bg2.jpg); }
+
+.sixth-image_3 {
+  background-image: url(../images/review-bg3.jpg); }
+
+.sixth-image_4 {
+  background-image: url(../images/review-bg4.jpg); }
+
+.sixth-image_5 {
+  background-image: url(../images/review-bg5.jpg); }
+
+.sixth-image_6 {
+  background-image: url(../images/review-bg6.jpg); }
+
+.sixth-image_7 {
+  background-image: url(../images/review-bg7.jpg); }
+
+.sixth-image_8 {
+  background-image: url(../images/review-bg8.jpg); }
+
+.section-sixth__wrap {
   min-width: 1100px;
   min-height: 650px;
   height: 100vh; }
 
-.sixth-image-title {
+.text-block__image {
   font-family: 'Gagalin';
   font-size: 14px;
   color: #fff;
   font-weight: 28px;
   margin-bottom: 25px; }
 
-.sixth-image-text-wrap {
+.sixth-image__sixth-text {
   display: none;
   width: 100%;
   height: 100%;
   padding: 50px 20px; }
-  .sixth-image-text-wrap:hover {
+  .sixth-image__sixth-text:hover {
     background-color: rgba(20, 20, 20, 0.7);
     z-index: 10000;
     display: block; }
 
-.sixth-image-about {
+.text-block__about {
   font-family: 'Ubuntu-Light';
   color: #fff;
-  font-weight: 24px;
+  line-height: 24px;
   font-size: 14px; }
 
-.sixth-image-button {
+.text-block__sixth-button {
   background-color: #2f3234;
   margin-top: 30px; }
-  .sixth-image-button:hover {
+  .text-block__sixth-button:hover {
     background-color: #1f2122; }
 
 .mini-map {
   position: fixed;
   right: 45px;
   top: 90px; }
-  .mini-map__list {
+  .mini-map__map-list {
     padding: 0;
     margin: 0;
     list-style: none; }
-  .mini-map__item {
-    margin-bottom: 5px; }
-  .mini-map__link {
-    position: relative;
-    display: block;
-    width: 16px;
-    height: 16px;
-    border-radius: 8px;
-    background-color: none;
-    border: 1px solid transparent; }
-  .mini-map__decor {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    display: block;
-    width: 6px;
-    height: 6px;
-    border-radius: 3px;
-    background-color: #ffffff;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); }
-  .mini-map__link_active:focus {
-    border-color: #ffffff; }
+
+.map-list__map-item {
+  margin-bottom: 5px; }
+
+.map-item__map-link {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: none;
+  border: 1px solid transparent; }
+
+.map-link__decor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.map-link_active:focus {
+  border-color: #ffffff; }
